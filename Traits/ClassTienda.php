@@ -16,6 +16,7 @@
 				Precio: {$this->fltPrecio} <br>
 				Total: {$this->fltTotal} <br>
 				Ahora si se hicieron los cambios<br>
+				No se puede dejar este commit para los cambios<br>
 			";
 			return $infoCarrito;
 		}
