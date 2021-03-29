@@ -15,7 +15,7 @@
 				Cantidad: {$this->intCantidad} <br>
 				Precio: {$this->fltPrecio} <br>
 				Total: {$this->fltTotal} <br>
-				No se hizo ningun cambio<br>
+				Ahora si se hicieron los cambios<br>
 			";
 			return $infoCarrito;
 		}
