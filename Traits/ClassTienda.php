@@ -15,10 +15,9 @@
 				Cantidad: {$this->intCantidad} <br>
 				Precio: {$this->fltPrecio} <br>
 				Total: {$this->fltTotal} <br>
+				Estos son los datos del carrito<br>
 			";
 			return $infoCarrito;
 		}
 	}
-
-
  ?>
