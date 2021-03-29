@@ -4,7 +4,7 @@
 	$objProducto = new Tienda();
 
 	$strProducto = "Teclado";
-	$fltPrecio = 110;
+	$fltPrecio = 250;
 	$intStock = 15;
 
 	$intCantidadVendida = 3;
