@@ -6,5 +6,11 @@
 		{
 			parent::__construct();
 		}	
+		public function setUser(string $nombre, int $edad){
+			$query_insert = "INSERT INTO usuario(nombre, edad) VALUES (?,?)";
+			$arrData = array($nombre,$edad);
+			$request_insert = $this->inset($query_insert,$arrData);
+			return $request_insert;
+		}
 	}
  ?>
