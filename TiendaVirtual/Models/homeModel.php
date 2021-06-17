@@ -1,16 +1,16 @@
 <?php 
-
-	class homeModel extends Mysql
+	//require_once("CategoriasModel.php");
+	class HomeModel extends Mysql
 	{
+		private $objCategoria;
 		public function __construct()
 		{
 			parent::__construct();
-		}	
-		public function setUser(string $nombre, int $edad){
-			$query_insert = "INSERT INTO usuario(nombre, edad) VALUES (?,?)";
-			$arrData = array($nombre,$edad);
-			$request_insert = $this->inset($query_insert,$arrData);
-			return $request_insert;
+			//$this->objCategoria = new CategoriasModel();
 		}
+
+		public function getCategorias(){
+			//return $this->objCategoria->selectCategorias();
+		}	
 	}
  ?>
